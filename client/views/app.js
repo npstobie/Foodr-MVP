@@ -13,18 +13,10 @@ angular.module('foodrApp', [
   })
   .when('/description', {
     templateUrl: 'description/description.html',
-    controller: 'descriptionCtrl'
+    controller: 'swipeCtrl'
   })
 }])
-// .factory('places', function($http) {
-//   var placesObj = {
-//     getPlacesNearMe: function() {
-//       return $http
-//         .get('https://maps.googleapis.com/maps/api/place/radarsearch/json?location=37.783594,-122.409007&radius=1600&types=food&key=AIzaSyBwa_30IwZd8X4DZ_-eeX5YP2YuypkXqx8')
-//         .then(function (res) {      
-//           return res;
-//         })
-//     } 
-//   }
-//   return placesObj;
-// });
+.factory('test', function(){
+  return {idx: 0}
+})
+
