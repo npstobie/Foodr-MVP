@@ -1,10 +1,30 @@
 <div ng-controller="swipeCtrl">
-  <div>
-    <button ng-click="back()">Back</button><br>
-    <img src="{{image}}">
-    <p>{{name}}</p>
-    <p>Price: {{price}}</p>
-    <p>{{address}}</p>
-    <p>{{review}}</p>
-  </div>
+     
+    <div class="col-md-3"></div> 
+      <div class="col-md-6" id="card">
+      <div class="row col-md-12">
+        <button class="col-md-2" ng-click="back()">Back</button>
+        <h1 class="col-md-8">foodr<h1>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+          <div id="pic">
+          <img class="col-md-8" ng-src="{{image}}">
+          </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+          <h1>{{name}}</h1>
+          <div class="col-md-3"></div>
+          <h3>Price: <b>{{price}}<b></h3>
+          <div class="col-md-3"></div>
+          <h3>Address: {{address}}</h3>
+        <h3 class="col-md-12">Review: {{review}}</h3>
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+
+
 </div>

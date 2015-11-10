@@ -1,8 +1,18 @@
 <div id="foodPlace" ng-controller="swipeCtrl">
   <div>
-    <img src="{{image}}">
-    <p>{{name}}<p/><p>{{price}}</p>
-  </div>
-  <button ng-click="describe()">Yes Please!</button>
-  <button ng-click="next()">No Thanks!</button>
+
+    <div class="col-md-3"></div> 
+    <div class="col-md-6" id="card">
+      <h1 class="col-md-12">foodr<h1>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <img class="col-md-8" src="{{image}}">
+        <div class="col-md-2"></div>
+      </div>
+      <!-- ng-source -->
+      <p>{{name}}<p/><p>{{price}}</p>
+      <button ng-click="describe()">Yes Please!</button>
+      <button ng-click="next()">No Thanks!</button>
+    </div>
+    <div class="col-md-3"></div>
 </div>
