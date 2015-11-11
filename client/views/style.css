@@ -14,10 +14,39 @@ button {
   font-size: 14px;
 }
 
+#name {
+  margin-top: 20px;
+}
+
 #card {
   background-color: #1dd1ae;
   margin: 30px;
   border-radius: 20px;
+  box-shadow: 2px 2px 2px #4d4d4d;
+}
+
+#picture {
+  border: 20px solid white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px  #4d4d4d;
+}
+
+#maps {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#address {
+  font-size: 20px;
+  margin-bottom: 20px 
+}
+
+#price {
+  margin-top: 10px;
+}
+
+#review {
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -33,4 +62,9 @@ h1 {
 h3 {
   text-shadow: 0px 1px 1px #4d4d4d;
   color: #white;
+}
+
+#tinderLike {
+  max-width: 90px;
+  margin: 50px;
 }
